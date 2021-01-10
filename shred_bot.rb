@@ -49,8 +49,6 @@ begin
 
 
   # ***** Date Selector Page *****
-  month = 'January'
-  day = '23'
   available = false
   sleep(1) # for some reason the explicit wait doesn't work here so use sleep
   # all available dates are of the class DayPicker-Day so iterate through all of them until specified date is found
@@ -58,7 +56,7 @@ begin
 
   # select date and check availability
   for date in day_picker
-    if date.text.eql? day
+    if date.text.eql? DAY
       date.click
       begin
         driver.find_element(xpath: "//h2[text() = 'No Reservations Available']")
