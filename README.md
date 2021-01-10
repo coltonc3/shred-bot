@@ -1,5 +1,5 @@
-# Heading
-Shred Bot
+# Shred Bot
+
 
 Ski resorts now require reservations to be made in advance of skiing to prevent the spread of Covid. Making these reservations often gets competitive as everyone tries to go all on the same day. People are always cancelling and re-booking to get their spot. I found it tedious always having to check the Ikon website to see if any days had opened up at my resort.
 
@@ -9,8 +9,7 @@ Note: This script only works with resorts that allow reservations to be made dir
 
 ---
 
-## Heading
-Usage
+## Usage
 
 The goal of this project was to make the script run at time intervals specified by the user. This can be done using a Cron job.  If you're unfamiliar with Cron jobs you can learn about them [here](https://ostechnix.com/a-beginners-guide-to-cron-jobs/).
 
