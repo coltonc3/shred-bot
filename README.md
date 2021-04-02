@@ -30,3 +30,8 @@ On a new line in the file, enter
 Allow the crontab to be installed. Then run `crontab -l` to make sure it saved properly. This should show all your Cron jobs.  
  
 Set-up finished. 
+
+---   
+  
+No longer maintained as of April 2, 2021. Hopefully next season we won't need this!
+
